@@ -77,7 +77,7 @@ export default function WhatWeDo() {
                     </div>
                 </section>
                 <div className="w-full">
-                    <img src="/src/assets/Rectangle.png" className="w-full h-auto object-cover" />
+                    <img src="/assets/Rectangle.png" className="w-full h-auto object-cover" />
                 </div>
             </div>
         </main>
