@@ -33,7 +33,7 @@ const Navbar = ({ onScrollTo }) => {
         <nav className={`fixed top-0 w-full z-50 py-4 px-5 lg:px-20 flex justify-between items-center transition-all ${scrolled ? 'bg-white' : 'bg-transparent'}`}>
             <div className="flex items-center">
                 <img 
-                    src="/logo/Logo.png" 
+                    src="/logos/Logo.png" 
                     alt="Logo" 
                     className={`transition-all duration-300 cursor-pointer ${scrolled ? 'w-24 h-auto' : 'w-32 h-auto'}`} 
                     onClick={() => onScrollTo("home")} 

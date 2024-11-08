@@ -12,7 +12,7 @@ export default function WhatWeDo() {
                 <section className="grid grid-cols-1 px-10 lg:px-[14rem] my-10 gap-5">
                     <div className="bg-gradient-to-b from-[#F3F2F8] to-[#E4E1EE] p-4 md:p-7 rounded-xl flex z-50">
                         <div className="w-2/5 flex items-center">
-                            <img src="/src/assets/image1.png" alt="image1" className="w-full h-auto" />
+                            <img src="/assets/image1.png" alt="image1" className="w-full h-auto" />
                         </div>
                         <div className="w-3/5 px-4 md:px-10 flex flex-col justify-center gap-1 md:gap-2">
                             <div className="flex items-center gap-x-3">
@@ -27,7 +27,7 @@ export default function WhatWeDo() {
 
                     <div className="bg-gradient-to-b from-[#F3F2F8] to-[#E4E1EE] p-4 md:p-7 rounded-xl flex z-50">
                         <div className="w-2/5 flex items-center">
-                            <img src="/src/assets/image2.png" alt="image2" className="w-full h-auto" />
+                            <img src="/assets/image2.png" alt="image2" className="w-full h-auto" />
                         </div>
                         <div className="w-3/5 px-4 md:px-10 flex flex-col justify-center gap-1 md:gap-2">
                             <div className="flex items-center gap-x-3">
@@ -42,7 +42,7 @@ export default function WhatWeDo() {
 
                     <div className="bg-gradient-to-b from-[#F3F2F8] to-[#E4E1EE] p-4 md:p-7 rounded-xl flex z-50">
                         <div className="w-2/5 flex items-center">
-                            <img src="/src/assets/image3.png" alt="image3" className="w-full h-auto" />
+                            <img src="/assets/image3.png" alt="image3" className="w-full h-auto" />
                         </div>
                         <div className="w-3/5 px-4 md:px-10 flex flex-col justify-center gap-1 md:gap-2">
                             <div className="flex items-center gap-x-3">
@@ -57,7 +57,7 @@ export default function WhatWeDo() {
 
                     <div className="bg-gradient-to-b from-[#F3F2F8] to-[#E4E1EE] p-4 md:p-7 rounded-xl flex z-50">
                         <div className="w-2/5 flex items-center">
-                            <img src="/src/assets/image4.png" alt="image4" className="w-full h-auto" />
+                            <img src="/assets/image4.png" alt="image4" className="w-full h-auto" />
                         </div>
                         <div className="w-3/5 px-4 md:px-10 flex flex-col justify-center gap-1 md:gap-2">
                             <div className="flex items-center gap-x-3">

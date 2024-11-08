@@ -1,9 +1,4 @@
 import '../index.css'
-import asset from '../assets/asset.png'
-import L1 from '../assets/Layer1.png'
-import L2 from '../assets/Layer2.png'
-import L3 from '../assets/Layer3.png'
-import L4 from '../assets/Layer4.png'
 
 export default function Home() {
     return (
@@ -22,7 +17,7 @@ export default function Home() {
                 </div>
 
                 <div className="flex justify-center">
-                    <img src={asset} className='w-full' />
+                    <img src="/assets/asset.png" className='w-full' />
                 </div>
             </main>
             
@@ -30,12 +25,12 @@ export default function Home() {
                 <div className='px-8 md:px-20 space-y-8'>
                     <div className='shadow-md border rounded-md flex flex-col lg:flex-row lg:justify-between items-center gap-y-5 py-5 px-8 bg-gradient-to-b from-[#F3F2F8] to-[#E4E1EE]'>
                         <span className='w-full flex justify-center lg:block lg:w-1/4'>
-                            <img src={L1} className='w-[100px] md:w-[200px] h-auto' />
+                            <img src="/assets/Layer1.png" className='w-[100px] md:w-[200px] h-auto' />
                         </span>
                         <span className='w-full lg:w-3/5 flex justify-between'>
-                            <img src={L2} className='w-[60px] md:w-[120px] h-auto' />
-                            <img src={L3} className='size-8 md:size-16' />
-                            <img src={L4} className='w-[60px] md:w-[120px] h-auto' />
+                            <img src="/assets/Layer2.png" className='w-[60px] md:w-[120px] h-auto' />
+                            <img src="/assets/Layer3.png" className='size-8 md:size-16' />
+                            <img src="/assets/Layer4.png" className='w-[60px] md:w-[120px] h-auto' />
                         </span>
                     </div>
                     <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 text-center gap-7'>
